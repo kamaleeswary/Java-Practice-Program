@@ -1,0 +1,53 @@
+hr{
+    background-color: dimgrey;
+    color: dimgrey;
+    border: solid 2px dimgrey;
+    height: 5px;
+    width: 1000px;
+}
+
+ 
+/*html body {
+   
+        background:url('bg.jpeg') !important    ;}*/
+h1{
+    color:royalblue !important;
+}
+
+.jumbotron {
+    background-color:rgb(65, 188, 225) !important; 
+ 
+}
+p{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.backdrop{
+ 
+    height: 100%;
+    color:black;
+}
+.custom-ul{
+    list-style-type: none;
+}
+.custom-ul li{
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+.custom-ul li::before{
+    content: "\f058";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: green;
+    font-size: 16px;
+    padding-right: 10px;
+    position: absolute;
+    left: 0;
+}
